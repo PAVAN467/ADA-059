@@ -1,5 +1,5 @@
 class A():
-    b=[]
+    
     def __init__(self,b,a):
         self.b=b
         self.a=a
