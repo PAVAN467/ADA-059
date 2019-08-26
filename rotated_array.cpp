@@ -2,8 +2,7 @@
 
 using namespace std;
 
-int binarySearch(int a[], int low,
-				int high, int key)
+int binarySearch(int a[], int low,int high, int key)
 {
 if (high < low)
 	return -1;
