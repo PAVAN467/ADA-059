@@ -27,7 +27,7 @@ cout<<"bubble sort compares:"<< " "<<count<<"\n";
 
 void  selection(int a[],int n)
 {
-    int count1;
+    int count1=0;
     int i,j;
     int temp=0,minimum=0;
   
