@@ -47,10 +47,7 @@ int main(void) {
   int C[A+1];
   int S[A+1];
   coinChange(d, C, S);
-  //printf("\nC[p]\n");
-  //display(C);
-  //printf("\nS[p]\n");
-  //display(S);
+ 
   printf("\nMin. no. of coins required to make change for amount %d = %d\n", A, C[A]);
 
   coinSet(d, S);
